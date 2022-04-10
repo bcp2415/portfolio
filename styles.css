@@ -1,5 +1,31 @@
 body {
-  background-color: dodgerblue;
+  background-color: #272399;
+  color: #e6cb4c;
+  font-family: monospace;
+}
+
+pre {
+  font-family: monospace;
+}
+
+#globalContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+
+  margin: 5em;
+  padding: 1em;
+}
+
+#title {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#projectContainer {
+  display: flex;
+  justify-content: flex-start;
 }
 
 h1 {

@@ -28,6 +28,8 @@ function viewTechDetails() {
   techDetails = !techDetails;
 }
 
+let newObject = {};
+
 function viewFiles() {
   //files.innerHTML =
 }
